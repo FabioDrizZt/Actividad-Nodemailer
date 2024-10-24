@@ -1,0 +1,24 @@
+### Registro de nuevo usuario
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "email": "nuevo.usuario@example.com",
+  "password": "contraseña123"
+}
+
+###
+
+### Validación del usuario (con código de validación y usrId)
+POST http://localhost:3000/validate
+Content-Type: application/json
+
+{
+  "validationCode": 123456,
+  "usrId": "ID_DEL_USUARIO"
+}
+
+###
+
+### Obtener base de datos de usuarios
+GET http://localhost:3000/database

@@ -1,0 +1,16 @@
+{
+  "name": "nodemailer",
+  "version": "1.0.0",
+  "description": "Envío de correo electrónico y mensajería con Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "UNTREF",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  }
+}
